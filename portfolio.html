@@ -725,7 +725,6 @@
   </div>
 </section>
 
-<!-- Projects -->
 <section class="projects-section" id="projects">
   <div class="container">
     <div class="section-header fade-up">
@@ -748,8 +747,11 @@
       </div>
     </div>
 
-    <div class="projects-grid">
-      <div class="project-card featured fade-up">
+    <!-- Projects Grid -->
+    <div style="display:grid; grid-template-columns: repeat(2, 1fr); gap: 24px;">
+
+      <!-- 01 -->
+      <div class="project-card fade-up">
         <div class="project-number">01</div>
         <h3>E-Commerce Real-Time Data Pipeline</h3>
         <p>Production-grade data engineering pipeline on AWS Free Tier. Ingests e-commerce data from Fake Store API, transforms JSON to Parquet via Medallion Architecture, catalogs with Glue, queries with Athena — fully orchestrated by Apache Airflow DAGs running in Docker.</p>
@@ -761,26 +763,39 @@
           <span class="tag">Docker</span>
           <span class="tag">Python</span>
         </div>
+        <a href="https://github.com/JabulaniMcineka/MyProjects/tree/main/ecommerce-data-pipeline" target="_blank">
+          <img src="https://raw.githubusercontent.com/JabulaniMcineka/MyProjects/main/ecommerce-data-pipeline/screenshots/airflow_dag.png"
+            alt="Airflow DAG - E-Commerce Pipeline"
+            style="width:100%; max-height:160px; object-fit:cover; border-radius:8px; margin-bottom:16px; cursor:pointer; transition: opacity 0.3s;"
+            onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'" />
+        </a>
         <div class="project-footer">
-          <a href="https://github.com/JabulaniMcineka/ecommerce-data-pipeline" target="_blank" class="project-link">View on GitHub →</a>
+          <a href="https://github.com/JabulaniMcineka/MyProjects/tree/main/ecommerce-data-pipeline" target="_blank" class="project-link">View on GitHub →</a>
         </div>
       </div>
 
-      <div class="project-card fade-up">
-        <div class="project-number">02</div>
-        <h3>Delivery Pipeline</h3>
-        <p>Full delivery data pipeline project — ingesting, processing, and analysing delivery data through an automated data engineering workflow built for real-world logistics use cases.</p>
-        <div class="skill-tags" style="margin-bottom: 24px;">
-          <span class="tag">Python</span>
-          <span class="tag">Data Pipeline</span>
-          <span class="tag">ETL</span>
-        </div>
-        <div class="project-footer">
-          <a href="https://colab.research.google.com/drive/1z2i-ZGICFlbVb-wdma4U47S0bYlJ3cGC?usp=sharing" target="_blank" class="project-link">View on Colab →</a>
-        </div>
-      </div>
-    
+      <!-- 02 -->
+			<div class="project-card fade-up">
+		  <div class="project-number">02</div>
+		  <h3>Delivery Pipeline</h3>
+		  <p>Full delivery data pipeline project — ingesting, processing, and analysing delivery data through an automated data engineering workflow built for real-world logistics use cases.</p>
+		  <div class="skill-tags" style="margin-bottom: 24px;">
+			<span class="tag">Python</span>
+			<span class="tag">Data Pipeline</span>
+			<span class="tag">ETL</span>
+		  </div>
+		  <a href="https://github.com/JabulaniMcineka/MyProjects/tree/main/delivery_pipeline" target="_blank">
+			<img src="https://raw.githubusercontent.com/JabulaniMcineka/MyProjects/main/delivery_pipeline/delivery_pipeline_diagram.png"
+			  alt="Delivery Pipeline Architecture"
+			  style="width:100%; max-height:160px; object-fit:cover; border-radius:8px; margin-bottom:16px; cursor:pointer; transition: opacity 0.3s;"
+			  onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'" />
+		  </a>
+		  <div class="project-footer">
+			<a href="https://github.com/JabulaniMcineka/MyProjects/tree/main/delivery_pipeline" target="_blank" class="project-link">View on GitHub →</a>
+		  </div>
+		</div>
 
+      <!-- 03 -->
       <div class="project-card fade-up">
         <div class="project-number">03</div>
         <h3>Delivery Analysis</h3>
@@ -790,11 +805,18 @@
           <span class="tag">Pandas</span>
           <span class="tag">Data Analysis</span>
         </div>
+        <a href="https://colab.research.google.com/drive/1z2i-ZGICFlbVb-wdma4U47S0bYlJ3cGC?usp=sharing" target="_blank">
+          <img src="Delivery_Analysis_dashboard.png"
+            alt="Delivery Analysis Dashboard"
+            style="width:100%; max-height:160px; object-fit:cover; border-radius:8px; margin-bottom:16px; cursor:pointer; transition: opacity 0.3s;"
+            onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'" />
+        </a>
         <div class="project-footer">
-          <a href="https://github.com/JabulaniMcineka/delivery_analysis" target="_blank" class="project-link">View on GitHub →</a>
+          <a href="https://colab.research.google.com/drive/1z2i-ZGICFlbVb-wdma4U47S0bYlJ3cGC?usp=sharing" target="_blank" class="project-link">View on Colab →</a>
         </div>
       </div>
-	 
+
+      <!-- 04 -->
       <div class="project-card fade-up">
         <div class="project-number">04</div>
         <h3>Sales Data Warehouse</h3>
@@ -809,6 +831,7 @@
         </div>
       </div>
 
+      <!-- 05 -->
       <div class="project-card fade-up">
         <div class="project-number">05</div>
         <h3>Facility Visits Analysis</h3>
@@ -823,6 +846,7 @@
         </div>
       </div>
 
+      <!-- 06 -->
       <div class="project-card fade-up">
         <div class="project-number">06</div>
         <h3>AWS EC2 Node + Nginx Setup</h3>
@@ -837,6 +861,7 @@
           <a href="https://github.com/JabulaniMcineka/aws-ec2-node-nginx-setup" target="_blank" class="project-link">View on GitHub →</a>
         </div>
       </div>
+
     </div>
   </div>
 </section>
