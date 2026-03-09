@@ -1,29 +1,67 @@
-# Jabulani Mcineka Portfolio
+# 🚀 Jabulani Mcineka — Portfolio
 
-This is a static HTML portfolio for **Jabulani Makhosonke Mcineka**, showcasing his experience as a Data Manager, Data Analyst, and Developer. The website is designed using Tailwind CSS and provides information about his skills, experience, projects, and academic background.
+A live personal portfolio showcasing my work as a Software Developer, Data Engineer, and Cloud Engineer — built with HTML, CSS, and JavaScript, hosted on GitHub Pages.
 
-## About
-Jabulani is a detail-oriented and tech-driven Data Manager with strong experience in data pipeline automation, SQL databases, ETL workflows, and Power BI reporting. He currently works at the Africa Health Research Institute.
-
-##Technologies Used
-- **HTML**
-- **Tailwind CSS** (via CDN)
-- Responsive layout
-
-## Structure
-- `index.html` – main page with sections:
-  - About Me
-  - Skills
-  - Projects
-  - Experience
-  - Education
-
-## How to View
-Open `Jabulani_Mcineka_Portfolio.html` in any web browser. No server or build tools are required.
-
-## 📬 Contact
-- **Email:** mjeymcineka@gmail.com
-- **Location:** South Africa (available US hours)
+🌐 **Live Site:** [jabulanimcineka.github.io/Portfolio/portfolio.html](https://jabulanimcineka.github.io/Portfolio/portfolio.html)
 
 ---
-© 2025 Jabulani Makhosonke Mcineka. All rights reserved.
+
+## 👤 About
+
+I'm a **Qualified Software Developer** and **AWS Certified Data Engineer** based in Durban, South Africa — currently working at **Africa Health Research Institute (AHRI)**, where I build production-grade ETL pipelines, Power BI dashboards, and clinical data systems that support real-world health research across Africa.
+
+---
+
+## 🛠️ Built With
+
+| Technology | Purpose |
+|------------|---------|
+| HTML5 | Structure |
+| CSS3 / Custom Styles | Styling & animations |
+| JavaScript | Interactivity & fade effects |
+| GitHub Pages | Hosting |
+
+---
+
+## 📁 Structure
+
+```
+Portfolio/
+├── portfolio.html        # Main portfolio page
+├── image.png             # Profile photo
+├── Delivery_Analysis_dashboard.png  # Project screenshot
+└── README.md
+```
+
+---
+
+## 📌 Sections
+
+- **Hero** — Introduction and quick links
+- **About Me** — Background, education, and certifications
+- **Skills** — Technical stack
+- **Experience** — Work history at AHRI and CSG
+- **Projects** — Data engineering and cloud projects with live links
+- **Certifications** — AWS credentials with Credly verification
+- **Contact** — Get in touch
+
+---
+
+## 🏅 Certifications
+
+- AWS Certified Cloud Practitioner (2025)
+- AWS Certified Data Engineer – Associate (2025)
+- AWS AI Cloud Practitioner *(In Progress)*
+
+---
+
+## 📬 Contact
+
+- **Email:** mjeymcineka@gmail.com
+- **LinkedIn:** [linkedin.com/in/jabulani-mcineka-941360182](https://www.linkedin.com/in/jabulani-mcineka-941360182)
+- **GitHub:** [github.com/JabulaniMcineka](https://github.com/JabulaniMcineka)
+- **Location:** Durban, KwaZulu-Natal, South Africa
+
+---
+
+© 2025 Jabulani Mcineka. All rights reserved.
